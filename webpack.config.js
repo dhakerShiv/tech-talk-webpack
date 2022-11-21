@@ -36,5 +36,9 @@ module.exports = {
     },
     target: ['web', "es6"],
     mode: 'production',
-    watch: true
+    watch: true,
+    // stats: {
+    //     // Display bailout reasons
+    //     optimizationBailout: true,
+    // },
 }
