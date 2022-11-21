@@ -1,9 +1,7 @@
-import { Multiply } from './multiply';
+import { MAX_RETRY } from './getdata';
 
 function calculator() {
-    const multiply = new Multiply(10, 20);
-
-    return multiply.multiplyBigNumbers();
+    return MAX_RETRY;
 }
 
 const element = document.createElement('div');
