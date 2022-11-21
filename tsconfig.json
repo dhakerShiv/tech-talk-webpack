@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "moduleResolution": "node",
+        "strict": true,
+        "noEmit": false,
+        "allowJs": false,
+        "skipLibCheck": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "noImplicitAny": false,
+        "resolveJsonModule": true,
+        "sourceMap": true
+    },
+    "include": ["./src/**/*.ts", "./src/**/*.tsx",]
+}
