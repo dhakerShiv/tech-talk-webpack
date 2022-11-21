@@ -1,8 +1,9 @@
-import { add } from './add';
-import { subtract } from './subtract';
+import { Multiply } from './multiply';
 
 function calculator() {
-  return [add(10, 20), subtract(20, 10)];
+    const multiply = new Multiply(10, 20);
+
+    return multiply.multiplyBigNumbers();
 }
 
 const element = document.createElement('div');
