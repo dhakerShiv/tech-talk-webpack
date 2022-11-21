@@ -1,7 +1,7 @@
-module.exports.subtractBigNumber = /*#__PURE__*/ (a, b) => {
+module.exports.subtractBigNumber = (a, b) => {
     return "I am subtractBigNumber";
 }
 
-module.exports.subtractFractions = /*#__PURE__*/ (a, b) => {
+module.exports.subtractFractions = (a, b) => {
     return "I am subtractFractions";
 }
