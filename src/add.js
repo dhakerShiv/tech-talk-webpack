@@ -1,3 +1,7 @@
+import { addFractions } from "./addHelper";
+
 export const add = (a, b) => {
-    return "I am add";
+    const result = addFractions();
+
+    return "I am add, " + result;
 }
