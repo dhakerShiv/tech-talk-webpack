@@ -1,6 +1,6 @@
 const path = require('path');
 const TerserWebpackPlugin = require('terser-webpack-plugin');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const WatchRunPlugin = require('./src/WatchRunPlugin');
 
 module.exports = {
     entry: './src/index.js',
@@ -36,7 +36,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new BundleAnalyzerPlugin()
+        new WatchRunPlugin({ separator: ":" })
     ],
     target: ['web', "es6"],
     mode: 'production',
