@@ -32,6 +32,11 @@ module.exports = {
             {
                 test: /\.(ts|tsx)$/,
                 loader: "ts-loader"
+            },
+            {
+                test: /\.(js)$/,
+                loader: path.resolve("./loaders/replace-content"),
+                options: { from: "I am", to: "You are" }
             }
         ]
     },
