@@ -1,7 +1,9 @@
-import { MAX_RETRY } from './getdata';
+import { add } from './add';
+import { subtract } from './subtract';
+import { multiply } from './subtract';
 
 function calculator() {
-    return MAX_RETRY;
+  return [add(10, 20), subtract(20, 10)];
 }
 
 const element = document.createElement('div');
